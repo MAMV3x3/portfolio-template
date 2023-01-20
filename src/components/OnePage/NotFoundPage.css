@@ -1,0 +1,12 @@
+.NotFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.NotFoundText{
+    position: absolute;
+    font-weight: bolder;
+}
