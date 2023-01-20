@@ -3,11 +3,13 @@
 /*VARIABLES*/
 :root {
     /*COLORS*/
-    --body-color: #f5f5f5;
-    --text-color: #333;
-    --first-color: #ff6b81;
-    --title-color: #333;
+    --body-color: #131313;
+    --text-color: rgb(202, 202, 202);
+    --first-color: #002984;
+    --title-color: #fff;
     --container-color: #fff;
+    --socials-color: #3f51b5;
+    --socials-color-hover: #b5a33f;
 
     /*FONTS*/
     --body-font: 'Nunito', sans-serif;
@@ -133,7 +135,7 @@ img{
     border-radius: 1.875rem;
     box-shadow: 0 0 1px rgb(0 0 0 / 10%);
     border: 1px solid transparent;
-    color: #fff;
+    color: rgb(255, 255, 255);
     display: inline-block;
     background-color: var(--first-color);
     font-weight: var(--font-bold);
@@ -150,5 +152,5 @@ img{
 
 .btn:hover{
     animation: button-push 0.3s linear 1;
-    background-color: #ff4b5c;
+    background-color: #757de8;
 }
