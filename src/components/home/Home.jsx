@@ -13,7 +13,7 @@ const Home = () => {
         <div className='home__img'>
           <Window3d/>
         </div>
-        <h1 className="home__name">Miguel Ángel Mireles Vázquez</h1>
+        <h1 className="home__name">Hi 👋, I'm<br />Miguel Ángel Mireles Vázquez</h1>
         <span className="home__education">Mechatronics Engineer</span>
 
         <SocialsHeader />

@@ -10,6 +10,7 @@
     max-width: 540px;
     /* background-color: blueviolet; */
     text-align: center;
+    z-index: 1;
 }
 
 .home__img{

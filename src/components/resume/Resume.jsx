@@ -6,7 +6,9 @@ import Card from './Card';
 const Resume = () => {
   return (
     <section className="resume container section" id="resume">
+      <div className="tags top-tags">&lt;h2&gt;</div>
       <h2 className="section__title">Resume</h2>
+      <div className="tags bottom-tags">&lt;/h2&gt;</div>
 
       <div className="resume__container grid">
         <div className="timeline grid">
