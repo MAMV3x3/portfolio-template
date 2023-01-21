@@ -8,10 +8,7 @@ import Portfolio from '../portfolio/Portfolio'
 import Contact from '../contact/Contact'
 
 function OnePage() {
-  let data = require('../../Data/developerInfo.json')
-  let developer = data.developer
-  let resume = data.resume
-  let portfolio = data.portfolio
+
   return (
     <div>
       <>

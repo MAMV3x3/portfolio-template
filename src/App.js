@@ -5,13 +5,28 @@ import NotFoundPage from './components/OnePage/NotFoundPage';
 import OnePage from './components/OnePage/OnePage';
 
 function App() {
+  const [theme, setTheme] = React.useState('theme' ? 'dark' : 'light')
+
+  const themeToggler = () => {
+    const newTheme = theme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme)
+  }
+
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element = {<OnePage/>} />
-        <Route path='*' element = {<NotFoundPage/>} />
-      </Routes>
-    </BrowserRouter>
+    <div className="app" data-theme={theme}>
+      <BrowserRouter>
+        <div className="theme__toggle" onClick={themeToggler}>
+          {/* use icon of current theme */}
+          <i className={
+            theme === 'dark' ? 'fas fa-moon' : 'fas fa-sun'
+          }></i>
+        </div>
+        <Routes>
+          <Route path='/' element = {<OnePage/>} />
+          <Route path='*' element = {<NotFoundPage/>} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Nunito:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');
 
 /*VARIABLES*/
-:root {
+:root, [data-theme='dark'] {
     /*COLORS*/
-    --body-color: #131313;
+    --body-color: #131313 !important;
     --text-color: rgb(202, 202, 202);
     --first-color: #002984;
     --title-color: #fff;
     --container-color: rgb(31, 31, 31);
     --socials-color: #3f51b5;
     --socials-color-hover: #b5a33f;
+    --toggle-color: #002984;
+    --sidebar-color: #8f8f8fd8;
+    --sidebar-color-hover: #8f8f8f;
 
     /*FONTS*/
     --body-font: 'Rubik', sans-serif;
@@ -30,6 +33,20 @@
 
     /*BORDERS*/
     --border-radius: 20px;
+}
+
+[data-theme='light']{
+    /*COLORS*/
+    --body-color: #fff !important;
+    --text-color: hsl(243, 9%, 44%);
+    --first-color: #002984;
+    --title-color: #131313;
+    --container-color: rgb(255, 255, 255);
+    --socials-color: #3f51b5;
+    --socials-color-hover: #ffd900;
+    --toggle-color: #ffc400;
+    --sidebar-color: #131313;
+    --sidebar-color-hover: ##ffc400;
 }
 
 /*RESPONSIVE*/
@@ -63,10 +80,13 @@ textarea {
     font-weight: var(--font-medium);
 }
 
-body{
-    background-color: var(--body-color);
-    line-height: 1.7;
+.app{
+    background-color: var(--body-color) !important;
     color: var(--text-color);
+}
+
+body{
+    line-height: 1.7;
 }
 
 h1, h2, h3{
@@ -121,7 +141,7 @@ img{
 }
 
 .tags{
-    color: rgba(197, 197, 197, 0.76);
+    color: var(--sidebar-color);
     opacity: 0.6;
     font-family: 'La Belle Aurore', cursive;
     font-size: 1.5rem;
@@ -152,6 +172,21 @@ img{
     display: inline-block;
     background-color: var(--first-color);
     font-weight: var(--font-bold);
+}
+
+.theme__toggle{
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: var(--toggle-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 999;
 }
 
 @keyframes button-push{
