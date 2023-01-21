@@ -7,7 +7,7 @@ import './Window3d.css'
 function Window3d() {
   return (
     <div className='Window3d'>
-        <Window3dScenes className="Window3dScene" cameraPos={[7, 5 , 2]}>
+        <Window3dScenes className="Window3dScene" cameraPos={[0, 0, -8]}>
             {/* <color attach="background" args={['#555']}/> */}
             <Suspense fallback={null}>
                 <Bici/>
