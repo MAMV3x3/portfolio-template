@@ -12,7 +12,7 @@ function Window3d() {
             <Suspense fallback={null}>
                 <Bici/>
             </Suspense>
-            <OrbitControls autoRotate autoRotateSpeed={5} minDistance={5} maxDistance={25} enablePan={false}/>
+            <OrbitControls autoRotate autoRotateSpeed={5} minDistance={7} maxDistance={9} enablePan={false}/>
             {/* <ambientLight intensity={0.015} /> */}
             <ambientLight intensity={0.3} />
             <pointLight color="orange" intensity={1}  position={[10, 10, 20]} />
