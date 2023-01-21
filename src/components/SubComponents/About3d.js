@@ -15,7 +15,7 @@ function About3d() {
             <OrbitControls autoRotate autoRotateSpeed={5} minDistance={8.2} maxDistance={9} enablePan={false}/>
             {/* <ambientLight intensity={0.015} /> */}
             <ambientLight intensity={0.7} />
-            <pointLight color="orange" intensity={3}  position={[10, 10, 20]} />
+            <pointLight color="orange" intensity={1}  position={[10, 10, 20]} />
         </About3dScenes>
     </div>
   )
