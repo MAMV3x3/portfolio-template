@@ -1,7 +1,7 @@
 {
     "developer": {
-        "name":"Ines Alejandro Garcia Mosqueda",
-        "career":"Robotics and digital systems",
+        "name":"Miguel Ángel Mireles Vázquez",
+        "career":"Mechatronics Engineer",
         "socialMedia":{
             "linkedIn":"a",
             "gitHub":"a",
@@ -11,11 +11,11 @@
             "curriculum":"a"
         },
         "about":{
-            "history":"Hi, i´m Ines Alejandro. A Robotics and Digital Systems engineer student interested in software engineer development",
+            "history":"Hi, I am Miguel Ángel Mireles Vázquez, a student interested in software and hardware development, as well as machine learning and data science. I am always open to getting out of my comfort zone and learning from new technologies that are evolving at the moment.",
             "statistics":[
                 {
                 "title": "Development",
-                "porcent":90    
+                "porcent":100    
                 },
                 {
                 "title":"UI/UX design",

@@ -58,7 +58,7 @@
 }
 
 .skills__bar{
-    background-color: #fff;
+    background-color: var(--sidebar-color);
 }
 
 .skills__percentage{
