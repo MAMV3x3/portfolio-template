@@ -1,5 +1,19 @@
-.portfolio__card{
-    width: 100px;
-    height: 100px;
-    background-color: blueviolet;
+.proyect__card{
+    display: flex;
+    flex-grow: 1;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0px;
+}
+
+.bg-proyect__card{
+    height: 100%;
+    width: 100%;
+}
+
+.front-proyect__card{
+    position: absolute;
+    color: aqua;
 }

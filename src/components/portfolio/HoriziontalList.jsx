@@ -1,8 +1,16 @@
 import React from 'react'
+import Proyect from './Proyect'
+import './Proyect.css'
 
-function HoriziontalList() {
+function HoriziontalList(props) {
+    let proyectsCard = [];
+    props.proyects.map((val)=>{
+        proyectsCard.push(<Proyect name={val.name} about={val.about} date={val.date} image={val.image}/>)
+    })
   return (
-    <div>HoriziontalList</div>
+    <div className='horizontal-list'>
+        {proyectsCard}
+    </div>
   )
 }
 

@@ -5,9 +5,11 @@ import "./Portfolio.css"
 const Portfolio = (props) => {
   return (
     <section className="portfolio container section" id="resume">
-      <h2 className="section__title">Proyects</h2>
       <div className="portfolio__container">
-        <HoriziontalList/>
+        <div className="tags top-tags">&lt;h2&gt;</div>
+          <h2 className="section__title">Proyects</h2>
+        <div className="tags bottom-tags">&lt;/h2&gt;</div>
+          <HoriziontalList proyects ={props.proyects}/>
       </div>
     </section>
   )
