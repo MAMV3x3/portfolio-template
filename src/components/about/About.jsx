@@ -1,6 +1,6 @@
 import React from 'react';
 import "./About.css"
-import Avatar from "../../assets/logo.svg"
+import About3d from '../SubComponents/About3d';
 
 const About = (props) => {
   return (
@@ -10,7 +10,11 @@ const About = (props) => {
       <div className="tags bottom-tags">&lt;/h2&gt;</div>
 
       <div className="about__container grid">
-        <img src={Avatar} alt="avatar" className="about__img"/>
+        {/* <img src={Avatar} alt="avatar" className="about__img"/> */}
+
+        <div className="about__img">
+          <About3d />
+        </div>
 
         <div className="about__data grid">
           <div className="about__info">

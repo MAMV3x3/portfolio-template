@@ -3,9 +3,9 @@ import { useLoader } from '@react-three/fiber'
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
 import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader'
 
-const Bici = () => {
+const Loader = () => {
     const materials = useLoader(MTLLoader, 'yo.mtl')
-    const object = useLoader(OBJLoader, 'yo.obj', loader => {
+    const object = useLoader(OBJLoader, 'yoabout.obj', loader => {
     materials.preload()
     loader.setMaterials(materials)
     })
@@ -17,4 +17,4 @@ const Bici = () => {
     );
   };
 
-export default Bici
+export default Loader
