@@ -5,7 +5,7 @@ import ScrollDown from "./ScrollDown";
 import Avatar from "../../assets/logo.svg"
 import Window3d from "../SubComponents/Window3d"
 
-const Home = () => {
+const Home = (props) => {
   return (
     <section className="home container" id="home">
       <div className="intro">
@@ -13,8 +13,8 @@ const Home = () => {
         <div className='home__img'>
           <Window3d/>
         </div>
-        <h1 className="home__name">Hi 👋, I'm<br />Miguel Ángel Mireles Vázquez</h1>
-        <span className="home__education">Mechatronics Engineer</span>
+        <h1 className="home__name">Hi 👋, I'm<br />{props.devName}</h1>
+        <span className="home__education">{props.devCarrer}</span>
 
         <SocialsHeader />
 

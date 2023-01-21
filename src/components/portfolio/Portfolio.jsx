@@ -3,7 +3,7 @@ import Data from './Data';
 import Proyect from './Proyect'
 import "./Portfolio.css"
 
-const Portfolio = () => {
+const Portfolio = (props) => {
   return (
     <section className="portfolio container section" id="resume">
       <h2 className="section__title">Proyects</h2>

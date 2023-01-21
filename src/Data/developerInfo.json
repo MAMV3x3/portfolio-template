@@ -1,0 +1,97 @@
+{
+    "developer": {
+        "name":"Ines Alejandro Garcia Mosqueda",
+        "career":"Robotics and digital systems",
+        "socialMedia":{
+            "linkedIn":"a",
+            "gitHub":"a",
+            "instagram":"a",
+            "discord":"a",
+            "faceboock":"a",
+            "curriculum":"a"
+        },
+        "about":{
+            "history":"Hi, i´m Ines Alejandro. A Robotics and Digital Systems engineer student interested in software engineer development",
+            "statistics":[
+                {
+                "title": "Development",
+                "porcent":90    
+                },
+                {
+                "title":"UI/UX design",
+                "porcent":80
+                },
+                {
+                "title":"SoftSkills",
+                "porcent":60
+                }
+            ]
+        }
+    },
+    "resume":{
+        "education":[
+            {
+                "id": 1,
+                "icon": "icon-graduation",
+                "year": "2019 - 2021",
+                "title": "Master of pupets",
+                "institution": "University of California, Los Angeles",
+                "desc": "asd"
+            },
+            {
+                "id": 2,
+                "icon": "icon-graduation",
+                "year": "2019 - 2021",
+                "title": "Master of Science in Computer Science",
+                "institution": "Tecnologico de monterrey",
+                "desc": "asd"
+            },
+            {
+                "id": 3,
+                "icon": "icon-graduation",
+                "year": "2019 - 2021",
+                "title": "Master of Science in Computer Science",
+                "institution": "University of California, Los Angeles",
+                "desc": "asd"
+            }
+        ],
+        "experience":[
+            {
+                "icon": "icon-graduation",
+                "year": "2019 - 2021",
+                "title": "Master of Science in Computer Science",
+                "institutio": "University of California, Los Angeles",
+                "desc": "asd"
+            },
+            {
+                "icon": "icon-graduation",
+                "year": "2019 - 2021",
+                "title": "Master of Science in Computer Science",
+                "institutio": "University of California, Los Angeles",
+                "desc": "aaaaaa"
+            },
+            {
+                "icon": "icon-graduation",
+                "year": "2019 - 2021",
+                "title": "Master of Science in Computer Science",
+                "institutio": "University of California, Los Angeles",
+                "desc": "asd"
+            }
+        ]
+
+    },
+    "portfolio":[
+        {
+            "Name": "proyecto1",
+            "About": "something",
+            "Date": "Hoy",
+            "Image": ["https://user-images.githubusercontent.com/84602829/212249521-765e6854-8e4c-41c8-b9a8-9e28f1c2955f.png","https://user-images.githubusercontent.com/84602829/212249631-43499c4a-32dd-4104-9891-be8bd4356b9a.png"]
+        },
+        {
+            "Name": "proyecto2",
+            "About": "something",
+            "Date": "Ayer",
+            "Image": ["https://avatars.githubusercontent.com/u/84602829?v=4"]
+        }
+    ]
+  }

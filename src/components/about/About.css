@@ -65,17 +65,6 @@
     display: block;
 }
 
-.development{
-    width: 90%;
-    background-color: var(--socials-color-hover);
-}
-
-.ui__ux{
-    width: 80%;
-    background-color: var(--socials-color-hover);
-}
-
-.softskills{
-    width: 60%;
+.bar{
     background-color: var(--socials-color-hover);
 }
