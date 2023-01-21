@@ -18,7 +18,7 @@ const Home = (props) => {
 
         <SocialsHeader />
 
-        <a href="#contact" className="btn">Hire me</a>
+        <a href="#contact" className="btn">Contact me</a>
 
         <ScrollDown />
       </div>
