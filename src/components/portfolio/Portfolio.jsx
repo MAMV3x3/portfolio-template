@@ -1,5 +1,4 @@
 import React from 'react';
-import Data from './Data';
 import Proyect from './Proyect'
 import "./Portfolio.css"
 
