@@ -8,6 +8,7 @@ import Portfolio from '../portfolio/Portfolio'
 import Contact from '../contact/Contact'
 
 function OnePage() {
+
   return (
     <div>
       <>
