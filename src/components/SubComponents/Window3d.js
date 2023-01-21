@@ -14,8 +14,8 @@ function Window3d() {
             </Suspense>
             <OrbitControls autoRotate autoRotateSpeed={5} minDistance={5} maxDistance={25} enablePan={false}/>
             {/* <ambientLight intensity={0.015} /> */}
-            <ambientLight intensity={0.3} />
-            <pointLight color="orange" intensity={1}  position={[10, 10, 20]} />
+            <ambientLight intensity={0.7} />
+            <pointLight color="orange" intensity={10}  position={[10, 10, 20]} />
         </Window3dScenes>
     </div>
   )

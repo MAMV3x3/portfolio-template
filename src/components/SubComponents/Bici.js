@@ -5,7 +5,7 @@ import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader'
 
 const Bici = () => {
     const materials = useLoader(MTLLoader, 'yo.mtl')
-    const object = useLoader(OBJLoader, 'yo.obj', loader => {
+    const object = useLoader(OBJLoader, 'meVoxel_ines.obj', loader => {
     materials.preload()
     loader.setMaterials(materials)
     })
