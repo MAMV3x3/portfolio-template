@@ -1,18 +1,5 @@
-.proyect{
-    display: flex;
-    flex-direction: row;
-}
-
-.text{
-    display: inline-block;
-    width: 60%;
-    height: 70%;
-    z-index: 1000;
-}
-
-.image{
-    position: absolute;
-    width: 500px;
-    right:50px;
-    transform: perspective(500px) rotateY(-10deg);
+.portfolio__card{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
 }
