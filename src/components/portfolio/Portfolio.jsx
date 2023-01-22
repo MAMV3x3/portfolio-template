@@ -10,6 +10,7 @@ const Portfolio = (props) => {
           <h2 className="section__title">Projects</h2>
         <div className="tags bottom-tags">&lt;/h2&gt;</div>
           <HoriziontalList proyects ={props.proyects}/>
+          <HoriziontalList proyects ={props.proyects}/>
       </div>
     </section>
   )

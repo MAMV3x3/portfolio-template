@@ -1,16 +1,17 @@
 .proyect__card{
     display: flex;
     flex-grow: 1;
-    height: 200px;
+    height: auto;
+    width: 100px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    flex: 1 1 0px;
+
 }
 
 .bg-proyect__card{
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
 }
 
 .front-proyect__card{
