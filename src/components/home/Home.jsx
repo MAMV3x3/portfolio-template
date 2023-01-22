@@ -11,7 +11,7 @@ const Home = (props) => {
       <div className="intro">
         {/* <img src={Avatar} alt="avatar" className="home__img" /> */}
         <div className='home__img'>
-          <Window3d/>
+          <Window3d item="inesZamba.gbl"/>
         </div>
         <h1 className="home__name">Hi 👋, I'm<br />{props.devName}</h1>
         <span className="home__education">{props.devCarrer}</span>
