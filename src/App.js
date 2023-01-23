@@ -3,9 +3,10 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import "./App.css";
 import NotFoundPage from './components/OnePage/NotFoundPage';
 import OnePage from './components/OnePage/OnePage';
+import useLocalStorage from 'use-local-storage';
 
 function App() {
-  const [theme, setTheme] = React.useState('theme' ? 'dark' : 'light')
+  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
 
   const themeToggler = () => {
     const newTheme = theme === 'dark' ? 'light' : 'dark';
