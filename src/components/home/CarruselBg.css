@@ -1,0 +1,17 @@
+.carrusel{margin-bottom: 150px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carruselCard{
+    margin: 3px;
+    height: 300px;
+    width: 200px;
+    border: 1px solid #111;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

@@ -17,7 +17,7 @@ function OnePage() {
       <>
         <Sidebar />
         <main className="main">
-          <Home devName={developer.name} devCarrer={developer.career} devSocialMedia = {developer.socialMedia} />
+          <Home devName={developer.name} devCarrer={developer.career} devSocialMedia = {developer.socialMedia} proyects={portfolio}/>
           <About history={developer.about.history} statistics={developer.about.statistics}/>
           <Resume education={resume.education} experience={resume.experience}/>
           <Portfolio proyects={portfolio}/>
