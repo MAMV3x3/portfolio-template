@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Resume.css"
-import Data from './Data';
 import Card from './Card';
 
 const Resume = (props) => {

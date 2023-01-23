@@ -1,0 +1,56 @@
+.carrusel-all{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    perspective: 1000px;
+    margin-bottom: 300px;
+    overflow: hidden;
+}
+
+.carrusel{
+    position: absolute;
+    height: 300px;
+    width: 20%;
+    transform-style: preserve-3d;
+    animation: rotate 10s infinite linear;
+}
+
+.carruselCard{
+    position: absolute;
+    margin: 3px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #111;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.middleStuff{
+    position: absolute;
+    animation: rotateReverse 10s infinite linear;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes rotateReverse{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(-360deg);
+    }
+}
+
+
+
