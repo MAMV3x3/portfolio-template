@@ -1,5 +1,5 @@
 import React from 'react';
-import ScreenGallery from '../SubComponents/ScreenGallery';
+import ProyectGallery from './CardGallery/ProyectGallery';
 import "./Portfolio.css"
 
 
@@ -10,8 +10,8 @@ const Portfolio = (props) => {
         <div className="tags top-tags">&lt;h2&gt;</div>
           <h2 className="section__title">Projects</h2>
         <div className="tags bottom-tags">&lt;/h2&gt;</div>
-          <ScreenGallery proyects={props.proyects}/>
       </div>
+      <ProyectGallery proyects={props.proyects}/>
     </section>
   )
 }
