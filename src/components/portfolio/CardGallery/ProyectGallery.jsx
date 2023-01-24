@@ -4,10 +4,10 @@ import './ProyectGallery.css'
 
 
 function ProyectGallery(props) {
-  const priorityCards = [[[],[]]]
+  
   let galleryCard = [];
     props.proyects.map((val)=>{
-        galleryCard.push(<CardGallery priority={val.priority} name={val.name} about={val.about} date={val.date} image={val.image[0]}/>)
+        galleryCard.push(<CardGallery priority={val.priority} name={val.name} about={val.about} date={val.date} image={val.image[0]} technologies={val.technologies}/>)
       }
     )  
   return (

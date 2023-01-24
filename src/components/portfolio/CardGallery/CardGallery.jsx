@@ -3,6 +3,7 @@ import React from 'react'
 function randomNumber(limit) {
     return Math.floor(Math.random() * limit) + 1;
 }
+
 function cardTypeFunc(num){
     let type = "";
     switch (num){
@@ -27,15 +28,54 @@ function cardTypeFunc(num){
 
 function cardGallery(props) {
     let cardType = "gallery-card";
+    let technologiesItems = [];
+    let technologiesColor = {
+        "C#":"#1506F6",
+        "C++":"#0641F6",
+        "C":"#0660F6",
+        "Python":"#12F606",
+        "JavaScript":"#F6EE06",
+        "Java":"#F60630",
+        "HTML":"#F6B306",
+        "CSS":"#06D1F6",
+        "Matlab":"#F63106",
+        "R":"#4006F6",
+        "Arduino":"#049ECC",
+        "VHDL":"#93A4AA",
+        "":""
+    }
+    
+    let iconTechnologie = (technologie) =>{
+        let iconColor = technologiesColor[technologie];
+        return(
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 49 49">
+            <g id="Ellipse_1" data-name="Ellipse 1" fill={iconColor} stroke="none" stroke-width="1">
+                <circle cx="24.5" cy="24.5" r="24.5" stroke="none"/>
+                <circle cx="24.5" cy="24.5" r="24" fill="none"/>
+            </g>
+        </svg>)
+    }
     cardType += cardTypeFunc(props.priority);
-
-  return (
-    <div className={cardType}>
-      <img src={props.image} className= "gallery__img"/>
-      <div className='card-technologies'>
-        {}
-      </div>
-    </div>
+    props.technologies.map((val)=>{
+        technologiesItems.push(
+            <div className='card-technologies__item'>
+                {iconTechnologie(val)}
+                {<div className='technologie-name'>{val}</div>}
+            </div>
+        );
+    });
+    
+    return (
+        <div className={cardType}>
+            <div className='gallery-images'>
+                <img src={props.image} className= "gallery__img"/>
+            </div>
+            <div className='card-content'>
+                <div className='card-technologies'>
+                        {technologiesItems}
+                </div>
+            </div>
+        </div>
   )
 }
 

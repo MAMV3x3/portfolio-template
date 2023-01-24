@@ -1,17 +1,17 @@
 {
     "developer": {
-        "name":"Miguel Ángel Mireles Vázquez",
-        "career":"Mechatronics Engineer",
+        "name":"Ines Alejandro Garcia Mosqueda",
+        "career":"B.S. in Computer Science and Technologies",
         "socialMedia":{
-            "linkedIn":"a",
-            "gitHub":"a",
+            "linkedIn":"https://www.linkedin.com/in/ines-alejandro-garcia-mosqueda-8128a8237/",
+            "gitHub":"https://github.com/Ineso1",
             "instagram":"a",
-            "discord":"a",
+            "discord":"https://discord.gg/xQJFp9MF",
             "faceboock":"a",
             "curriculum":"a"
         },
         "about":{
-            "history":"Hi, I am Miguel Ángel Mireles Vázquez, a student interested in software and hardware development, as well as machine learning and data science. I am always open to getting out of my comfort zone and learning from new technologies that are evolving at the moment.",
+            "history":"Hi, I am Ines Alejandro Garcia Mosqueda, a Computer Science Engineer currently studying at Tecnologico de Monterrey. Good understanding of computer science principles and programming languages such as C++, Python and JavaScript. Experience with algorithms and data structures. Passionate about developing innovative solutions to complex problems. Strong analytical and problem-solving skills. Eager to learn new technologies and expand my skillset. Actively seeking opportunities to contribute my knowledge and skills.",
             "statistics":[
                 {
                 "title": "Development",
