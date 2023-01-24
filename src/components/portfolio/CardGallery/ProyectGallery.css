@@ -27,6 +27,11 @@
     grid-column: span 1;
 }
 
+.card-technologies{
+    background-color: #fff;
+}
+
+
 @media all and (min-width: 300px) {
 
     .v-stretch{

@@ -32,6 +32,9 @@ function cardGallery(props) {
   return (
     <div className={cardType}>
       <img src={props.image} className= "gallery__img"/>
+      <div className='card-technologies'>
+        {}
+      </div>
     </div>
   )
 }
