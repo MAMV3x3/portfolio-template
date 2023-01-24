@@ -1,8 +1,17 @@
 import React from 'react'
+import GalleryCard from './GalleryCard';
+import './GalleryCard.css';
 
-function ScreenGallery() {
+function ScreenGallery(props) {
+    let galleryCards = [];
+    props.proyects.map((val)=>{
+        galleryCards.push(<GalleryCard name={val.name} about={val.about} date={val.date} image={val.image[0]}/>)
+      }
+    )  
   return (
-    <div>ScreenGallery</div>
+    <div className='gallery'>
+        {galleryCards}
+    </div>
   )
 }
 

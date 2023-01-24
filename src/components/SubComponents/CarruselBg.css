@@ -27,7 +27,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
+    border-radius: 20px;
 }
 .middleStuff{
     position: absolute;

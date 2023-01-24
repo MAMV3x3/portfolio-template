@@ -16,6 +16,9 @@ function CarruselBg(props) {
   return (
     <div className='carrusel-all'>
       <div className='carrusel'>
+        <div className="middleStuff">
+          <h1>Hola morro</h1>
+        </div>
         {carruselCard}
       </div>
     </div>

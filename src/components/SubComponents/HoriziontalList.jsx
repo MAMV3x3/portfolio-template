@@ -1,5 +1,5 @@
 import React from 'react'
-import Proyect from './Proyect'
+import Proyect from '../portfolio/Proyect'
 import './Proyect.css'
 
 function HoriziontalList(props) {
