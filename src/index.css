@@ -199,6 +199,26 @@ img{
     width: 100%;
 }
 
+.background--custom {
+    background-color: #ffffff00;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+#gradient-canvas {
+    width:100%;
+    height:100%;
+    --gradient-color-1: #c3e4ff; 
+    --gradient-color-2: #6ec3f4; 
+    --gradient-color-3: #eae2ff;  
+    --gradient-color-4: #b9beff;
+}
+
 @keyframes button-push{
     50%{
         transform: scale(0.8);
