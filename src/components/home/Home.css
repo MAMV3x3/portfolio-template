@@ -90,3 +90,74 @@
     transform: translateX(-50%);
     animation: ani-mouse 1.5s infinite;
 }
+
+.wrapper{
+    overflow: hidden;
+}
+
+.shapes{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+.shape{
+    position: absolute;
+}
+
+.s1{
+    top: 50%;
+    left: 10%;
+}
+
+.s2{
+    top: 10%;
+    left: 2%;
+}
+
+.s3{
+    top: 85%;
+    right: 2%;
+}
+
+.s4{
+    bottom: 90%;
+    right: 2%;
+}
+
+.s5{
+    top: 25%;
+    left: 20%;
+}
+
+.s6{
+    top: 20%;
+    left: 70%;
+}
+
+.s7{
+    top: 10%;
+    left: 50%;
+}
+
+.s8{
+    top: 30%;
+    left: 90%;
+}
+
+.s9{
+    top: 90%;
+    left: 1%;
+}
+
+.s10{
+    top: 50%;
+    left: 80%;
+}
+
+.s11{
+    top: 70%;
+    left: 20%;
+}
