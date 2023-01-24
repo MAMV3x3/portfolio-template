@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Nunito:wght@400;500;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Syne:wght@400;500;600;700&display=swap');
 
 /*VARIABLES*/
 :root, [data-theme='dark'] {
@@ -15,8 +15,8 @@
     --sidebar-color-hover: #8f8f8f;
 
     /*FONTS*/
-    --body-font: 'Rubik', sans-serif;
-    --h1-font-size: 2.25rem;
+    --body-font: 'Syne', sans-serif;
+    --h1-font-size: 2rem;
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --normal-font-size: 1rem;

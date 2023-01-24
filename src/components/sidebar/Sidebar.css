@@ -38,3 +38,9 @@
     transform: rotate(-180deg);
     writing-mode: vertical-rl;
 }
+
+.nav__toggle{
+    position: fixed;
+    top: 1.25rem;
+    right: 1.875rem;
+}

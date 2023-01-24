@@ -25,6 +25,13 @@
     margin-bottom: 0.5rem;
 }
 
+.home__name__sub{
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    margin-bottom: 0.1rem;
+    color: var(--text-color);
+}
+
 .home__socials{
     display: flex;
     justify-content: center;

@@ -19,7 +19,7 @@ function App() {
         <div className="theme__toggle" onClick={themeToggler}>
           {/* use icon of current theme */}
           <i className={
-            theme === 'dark' ? 'fas fa-moon' : 'fas fa-sun'
+            theme === 'light' ? 'fas fa-sun' : 'fas fa-moon'
           }></i>
         </div>
         <Routes>

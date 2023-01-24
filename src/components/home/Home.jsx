@@ -26,7 +26,8 @@ const Home = (props) => {
         <div className='home__img'>
           <Window3d item="inesZamba.gbl"/>
         </div>
-        <h1 className="home__name">Hi 👋, I'm<br />{props.devName}</h1>
+        <h2 className="home__name__sub">Hi 👋, I'm</h2>
+        <h1 className="home__name">{props.devName}</h1>
         <span className="home__education">{props.devCarrer}</span>
 
         <SocialsHeader />
