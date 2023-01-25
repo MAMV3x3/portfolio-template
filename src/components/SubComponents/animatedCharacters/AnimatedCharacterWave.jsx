@@ -12,10 +12,10 @@ export default function Model(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
-        <group name="Armature" position={[-1.76, 0, 0]} rotation={[Math.PI / 2, 0, 0]} scale={0.62}>
+        <group name="Armature" rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
           <primitive object={nodes.mixamorigHips} />
         </group>
-        <group name="Armature1" rotation={[0, 3.4, 0]} position={[0,-3,0]} scale={3.5}>
+        <group name="Armature1" rotation={[0, 3.4, 0]} position={[0,-3,0]} scale={190.2}>
           <primitive object={nodes.mixamorigHips_1} />
           <primitive object={nodes.Ctrl_Master} />
           <primitive object={nodes.Ctrl_ArmPole_IK_Left} />
