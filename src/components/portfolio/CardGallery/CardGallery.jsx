@@ -84,11 +84,14 @@ function cardGallery(props) {
                     height: '100%',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    display: 'block',
+                    display: 'flex',
                 }} onClick={() => setShow(!show)}>
-                <div className='card-technologies'>
-                    {technologiesItems}
-                </div>
+                    <div className='card-technologies'>
+                        {technologiesItems}
+                    </div>
+                    <div className="project-title">
+                        <h2>{props.name}</h2>
+                    </div>
                 </div>
                 : null             
             }
@@ -97,7 +100,7 @@ function cardGallery(props) {
                 <div className="card-reveal" onClick={() => setShow(!show)}>
                 <div className="card-title">
                     <span className='card-title__title'>
-                        <h2>{props.name}</h2>
+                        <span>{props.name}</span>
                     </span>
                     <div className="icon__container">
                         <a href={props.github} target="_blank" rel="noreferrer">

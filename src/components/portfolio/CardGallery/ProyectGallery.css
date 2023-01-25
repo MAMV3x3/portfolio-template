@@ -38,6 +38,9 @@
     border-radius: 10px 10px 0 0;
     overflow-y: auto;
     animation: fade-in 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .card-title{
@@ -103,6 +106,8 @@
     border-radius: 20px;
     z-index: 1;
     margin: 2px 5px;
+    display: flex;
+    align-items: center;
 }
 
 .technologie-name{
@@ -184,6 +189,20 @@
     text-align: justify;
 }
 
+.project-title{
+    display: flex;
+    flex-direction: reverse;
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-bold);
+    padding: 10px;
+    color: var(--title-color);
+    text-transform: capitalize;
+    /*background with opacity*/
+    background: linear-gradient(90deg, rgba(82, 82, 82, 0.5) 0%, rgba(54, 54, 54, 0.5) 100%);
+    /*put tag on the bottom*/
+    align-items: flex-end;
+}
+
 @keyframes fade-in {
     0% {
         opacity: 0;
@@ -205,8 +224,6 @@
         grid-row: span 1;
         grid-column: span 1;
     }
-    
-    
   }
   
 @media all and (min-width: 900px) {
@@ -221,5 +238,25 @@
         grid-row: span 2;
         grid-column: span 2;
     }
-  }
+}
+
+@media screen and (max-width: 900px) {
+    .project-title{
+        font-size: var(--small-font-size);
+    }
+    .card-technologies__item{
+        min-width: 10px;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project-title{
+        font-size: 0.6rem;
+    }
+    .card-technologies__item{
+        min-width: 5px;
+        font-size: 0.7rem;
+    }
+}
   
