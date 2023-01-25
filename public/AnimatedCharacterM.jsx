@@ -1,17 +1,15 @@
-import React, { useRef, useEffect } from 'react'
+
+import React, { useRef } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 
-export default function Model(props) {
+export function Model(props) {
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('/animatedCharacters/AnimatedCharacterM.glb')
+  const { nodes, materials, animations } = useGLTF('/animatedCharacterM.glb')
   const { actions } = useAnimations(animations, group)
-  useEffect(()=>{
-    actions.Dance.play();
-  })
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
-        <group name="Armature" position={[0,-3,0]} rotation={[0,3.4,0]} scale={90}>
+        <group name="Armature">
           <primitive object={nodes.mixamorigHips} />
           <primitive object={nodes.Ctrl_Master} />
           <primitive object={nodes.Ctrl_ArmPole_IK_Left} />
@@ -53,4 +51,4 @@ export default function Model(props) {
   )
 }
 
-useGLTF.preload('/animatedCharacters/AnimatedCharacterM.glb')
+useGLTF.preload('/animatedCharacterM.glb')
