@@ -36,6 +36,29 @@
 
 .card-content{
     border-radius: 10px 10px 0 0;
+    overflow-y: auto;
+    animation: fade-in 0.3s;
+}
+
+.card-title{
+    font-size: var(--h2-font-size);
+    font-weight: bold;
+    padding: 10px;
+    color: var(--title-color);
+}
+
+.icon__container{
+    display: flex;
+    font-size: var(--h1-font-size);
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+    padding-top: 2rem;
+}
+
+.icon__container:hover{
+    transform: scale(1.1);
 }
 
 .card-technologies{
@@ -100,6 +123,33 @@
     position:sticky;
     background-color: #fff;
     z-index: 10000;
+}
+
+.card-reveal{
+    width: 100%;
+    height: 100%;
+    /*display: none;*/
+    background-color: var(--container-color);
+    padding: 10px;
+    filter: invert(95%);
+    border-radius: 10px 10px 0 0;
+    overflow-y: auto;
+    animation: fade-in 0.3s;
+}
+
+.card-description{
+    font-size: var(--normal-font-size);
+    padding: 10px;
+    color: var(--text-color);
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 @media all and (min-width: 300px) {

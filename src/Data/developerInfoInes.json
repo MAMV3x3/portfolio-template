@@ -91,7 +91,7 @@
             "technologies": ["Matlab","Python","Flak","React","GoogleCloud"]
         },
         {
-            "priority":"",
+            "priority":2,
             "name": "Analisis-Virus-SARS-CoV-2",
             "about": "This project describes a phylogenetic analysis of variants of the SARS-CoV-2 virus. The repository contains research and the process for understanding and creating a phylogenetic tree written in the R programming language. The DNA of various SARS-CoV-2 variants is analyzed to identify similarities between variants and detect common ancestors among the different virus variants.",
             "date": "May 2022",
@@ -99,10 +99,10 @@
             "technologies": ["R"]
         },
         {
-            "priority":"Apr 2022",
+            "priority":2,
             "name": "Analisis-Formula-1-laps",
             "about": "This text describes a project that aims to analyze the maximum speeds in Formula 1 race track curves by adjusting them to polynomial equations using Matlab. The goal of this analysis is to develop a proposal for positioning stands in order to reduce the risk to spectators. The project makes use of various data points, such as the equation of the curves, the cant angle, the coefficient of friction, and velocities, which can be manipulated in Matlab to gain insights. Additionally, an animation of a kart at different velocities can be observed in Matlab to identify critical points. The ultimate goal is to obtain the optimal proposal for stand positioning based on the analysis conducted using Matlab.",
-            "date": "Ayer",
+            "date": "Apr 2022",
             "image": ["https://i.pinimg.com/564x/d3/33/19/d33319c5f58116b2bad9840533c02d81.jpg"],
             "technologies": ["C#",".NET"]
         },

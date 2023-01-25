@@ -21,7 +21,7 @@ function cardTypeFunc(num){
         case 6:
             return type
         default:
-            let rn = randomNumber(6);
+            let rn = 4;
             return cardTypeFunc(rn);
     }
 }
@@ -42,6 +42,7 @@ function cardGallery(props) {
         "R":"#4006F6",
         "Arduino":"#049ECC",
         "VHDL":"#93A4AA",
+        ".NET":"#ab45ff",
         "":""
     }
     
@@ -55,7 +56,11 @@ function cardGallery(props) {
             </g>
         </svg>)
     }
+
+    /* load card type and make it so doesn't refresh */
+
     cardType += cardTypeFunc(props.priority);
+    
     props.technologies.map((val)=>{
         technologiesItems.push(
             <div className='card-technologies__item'>
@@ -64,24 +69,47 @@ function cardGallery(props) {
             </div>
         );
     });
-    
+
+    const [show, setShow] = React.useState(true);
+
     return (
         <div className={cardType}>
             {/* <div className='gallery-images'>
                 <img src={props.image} className= "gallery__img"/>
             </div> */}
-            <div className='card-content' style={{
+            {
+                show ? <div className='card-content' style={{
                     backgroundImage: `url(${props.image})`, 
                     width: '100%',
                     height: '100%',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                }}>
+                    display: 'block',
+                }} onClick={() => setShow(!show)}>
                 <div className='card-technologies'>
                     {technologiesItems}
                 </div>
-            </div>
-            <div className="show-more">
+                </div>
+                : null             
+            }
+            {
+                show ? null :
+                <div className="card-reveal" onClick={() => setShow(!show)}>
+                <span className="card-title">
+                    {props.name}
+                </span>
+                <div className="card-description">
+                    <p>{props.about}</p>
+                </div>
+                {/* github link */}
+                <div className="icon__container">
+                    <a href={props.github} target="_blank" rel="noreferrer">
+                        <i className="fab fa-github"></i>
+                    </a>
+                </div>
+                </div>
+            }
+            <div className="show-more" onClick={() => setShow(!show)}>
                 <i className="fa fa-chevron-right"></i> Show more
             </div>
         </div>

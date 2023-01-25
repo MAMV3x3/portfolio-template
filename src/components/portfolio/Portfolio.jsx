@@ -1,13 +1,15 @@
 import React from 'react';
 import ProyectGallery from './CardGallery/ProyectGallery';
 import ProjectModal from './ProjectModal';
+import { Modal } from 'react-responsive-modal';
 import "./Portfolio.css"
 
 
 const Portfolio = (props) => {
+
   return (    
     <section className="portfolio container section" id="portfolio">
-      <ProjectModal/>
+      {/* <ProjectModal/> */}
       <div className="portfolio__container">
         <div className="tags top-tags">&lt;h2&gt;</div>
           <h2 className="section__title">Projects</h2>
