@@ -1,6 +1,6 @@
 import React, {Suspense} from 'react'
-import AnimatedCharacter from './animatedCharacters/AnimatedCharacter'
-//import AnimatedCharacter from './animatedCharacters/AnimatedCharacterM'
+// import AnimatedCharacter from './animatedCharacters/AnimatedCharacter'
+import AnimatedCharacter from './animatedCharacters/AnimatedCharacterM'
 import Window3dScenes from './Window3dScenes'
 import {OrbitControls} from '@react-three/drei';
 import './Window3d.css'
@@ -11,7 +11,6 @@ function Window3d(props) {
         <Window3dScenes className="Window3dScene" cameraPos={[0, 0, -8]}>
             {/* <color attach="background" args={['#555']}/> */}
             <Suspense fallback={null}>
-                {/* <AnimatedCharacter/> */}
                 <AnimatedCharacter/>
             </Suspense>
             <OrbitControls autoRotate autoRotateSpeed={2} minDistance={7} maxDistance={9} enablePan={false}/>
