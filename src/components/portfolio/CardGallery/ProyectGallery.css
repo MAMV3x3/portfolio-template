@@ -66,6 +66,11 @@
     transition: 0.3s;
 }
 
+.icon__container a{
+    text-decoration: none;
+    color: var(--text-color-hover);
+}
+
 .card-title__date{
     display: flex;
     align-items: center;
