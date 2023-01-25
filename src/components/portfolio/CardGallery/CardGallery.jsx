@@ -116,7 +116,16 @@ function cardGallery(props) {
                 </div>
             }
             <div className="show-more" onClick={() => setShow(!show)}>
-                <i className="fa fa-chevron-right"></i> Show more
+                {
+                    show ? 
+                        <>
+                            <i className="fas fa-chevron-right"></i> Show more
+                        </>
+                        : 
+                        <>
+                            <i className="fas fa-chevron-left"></i> Show less
+                        </>
+                }
             </div>
         </div>
   )

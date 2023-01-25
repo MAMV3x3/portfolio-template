@@ -43,9 +43,10 @@
 .card-title{
     display: block;
     font-size: var(--h2-font-size);
-    font-weight: bold;
+    font-weight: var(--font-bold);
     padding: 10px;
     color: var(--title-color);
+    text-transform: capitalize;
 }
 
 .icon__container{
@@ -119,6 +120,12 @@
     color: var(--text-color);
     border-radius: 0 0 10px 10px;
     width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.show-more i{
+    margin-right: 5px;
 }
 
 /*move show move on gallery-card hover*/
