@@ -8,7 +8,6 @@ export default function Model(props) {
   const { nodes, materials, animations } = useGLTF('/animatedCharacters/animatedCharacterTalk.glb')
   const { actions } = useAnimations(animations, group)
   useEffect(()=>{
-    console.log(actions)
     actions.Talk.play();
   })
   return (

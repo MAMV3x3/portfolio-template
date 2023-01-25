@@ -6,7 +6,6 @@ export default function Model(props) {
   const { nodes, materials, animations } = useGLTF('/animatedCharacters/AnimatedCharacterM.glb')
   const { actions } = useAnimations(animations, group)
   useEffect(()=>{
-    console.log(actions)
     actions.Dance.play();
   })
   return (

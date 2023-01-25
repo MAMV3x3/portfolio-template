@@ -7,7 +7,6 @@ export default function Model(props) {
   const { nodes, materials, animations } = useGLTF('/animatedCharacters/animatedCharacter.glb')
   const { actions } = useAnimations(animations, group)
   useEffect(()=>{
-    console.log(actions)
     actions.OverShoulder.play();
   })
   return (
