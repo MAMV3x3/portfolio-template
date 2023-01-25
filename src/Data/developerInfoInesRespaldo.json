@@ -76,7 +76,7 @@
             "GitHub":"https://github.com/Ineso1/space-apps-challenge-2022"
         },
         {
-            "priority":2,
+            "priority":1,
             "name": "Quality fruit classifier",
             "about": "Low-cost industrial fruit classifier is an affordable solution for fruit processing facilities looking to improve their sorting and grading process. By utilizing cutting-edge artificial vision technology, the machine is able to accurately identify and distinguish between different types and sizes of fruits, as well as detect any imperfections or defects. This ensures that only the highest quality fruits are packaged and sent to market. The machine is designed for easy operation and maintenance, ensuring minimal downtime. Additionally, it is made of low-cost materials and manufactured with cost-effective methods making it very accessible. It's a great option for small and medium-size fruit processing operations looking to improve efficiency and quality control. Not only improves the sorting and grading process but also includes a dynamic website for productivity analysis. The website allows users to access real-time data on the machine's performance, including sorting speed, accuracy and efficiency. This allows managers and operators to monitor the machine's productivity and identify areas for improvement. Additionally, it offers detailed reports, charts and graphs for easy data interpretation, making it easy to see the performance of the classifier over time",
             "date": "oct. 2022 - actualidad",
@@ -112,7 +112,7 @@
             "GitHub":"https://github.com/Ineso1/Analisis-Virus-SARS-CoV-2"
         },
         {
-            "priority":1,
+            "priority":2,
             "name": "Analisis-Formula-1-laps",
             "about": "This text describes a project that aims to analyze the maximum speeds in Formula 1 race track curves by adjusting them to polynomial equations using Matlab. The goal of this analysis is to develop a proposal for positioning stands in order to reduce the risk to spectators. The project makes use of various data points, such as the equation of the curves, the cant angle, the coefficient of friction, and velocities, which can be manipulated in Matlab to gain insights. Additionally, an animation of a kart at different velocities can be observed in Matlab to identify critical points. The ultimate goal is to obtain the optimal proposal for stand positioning based on the analysis conducted using Matlab.",
             "date": "Apr 2022",
