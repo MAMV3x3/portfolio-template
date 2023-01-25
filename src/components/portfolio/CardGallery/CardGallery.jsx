@@ -71,15 +71,18 @@ function cardGallery(props) {
                 <img src={props.image} className= "gallery__img"/>
             </div> */}
             <div className='card-content' style={{
-                backgroundImage: `url(${props.image})`, 
-                width: '100%',
-                height: '100%',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-            }}>
+                    backgroundImage: `url(${props.image})`, 
+                    width: '100%',
+                    height: '100%',
+                    backgroundSize: 'cover',
+                    backgroundPosition: 'center',
+                }}>
                 <div className='card-technologies'>
                     {technologiesItems}
                 </div>
+            </div>
+            <div className="show-more">
+                <i className="fa fa-chevron-right"></i> Show more
             </div>
         </div>
   )

@@ -5,7 +5,7 @@ import "./Portfolio.css"
 
 const Portfolio = (props) => {
   return (
-    <section className="portfolio container section" id="resume">
+    <section className="portfolio container section" id="portfolio">
       <div className="portfolio__container">
         <div className="tags top-tags">&lt;h2&gt;</div>
           <h2 className="section__title">Projects</h2>
