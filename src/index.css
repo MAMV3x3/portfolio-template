@@ -15,13 +15,13 @@
     --sidebar-color-hover: #8f8f8f;
 
     /*FONTS*/
-    --body-font: 'Syne', sans-serif;
-    --h1-font-size: 2rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: 0.875rem;
-    --smaller-font-size: 0.75rem;
+    --body-font: 'Syne', sans-serif !important;
+    --h1-font-size: 2rem !important;
+    --h2-font-size: 1.5rem !important;
+    --h3-font-size: 1.25rem !important;
+    --normal-font-size: 1rem !important;
+    --small-font-size: 0.875rem !important;
+    --smaller-font-size: 0.75rem !important;
 
     /*FONT WEIGHTS*/
     --font-medium: 500;

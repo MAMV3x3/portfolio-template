@@ -10,9 +10,11 @@ const Contact = () => {
 
     emailjs.sendForm('service_2s8ihyb', 'template_2hixdgm', form.current, '0uvdl7fq873lBUkRT')
       .then((result) => {
-          console.log(result.text);
+          alert("Mail sent, I'll contact you soon! 📧");
+          // clear inputs
+          form.current.reset();
       }, (error) => {
-          console.log(error.text);
+          alert("Something went wrong, try again later! 📧");
       });
   };
 
