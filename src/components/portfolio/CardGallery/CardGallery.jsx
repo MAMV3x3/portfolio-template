@@ -95,18 +95,24 @@ function cardGallery(props) {
             {
                 show ? null :
                 <div className="card-reveal" onClick={() => setShow(!show)}>
-                <span className="card-title">
-                    {props.name}
-                </span>
+                <div className="card-title">
+                    <span className='card-title__title'>
+                        <h2>{props.name}</h2>
+                    </span>
+                    <div className="icon__container">
+                        <a href={props.github} target="_blank" rel="noreferrer">
+                            <i className="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div className='card-title__date'>
+                        <i className="far fa-calendar-alt"></i>
+                        <p>{props.date}</p>
+                    </div>
+                </div>
                 <div className="card-description">
                     <p>{props.about}</p>
                 </div>
                 {/* github link */}
-                <div className="icon__container">
-                    <a href={props.github} target="_blank" rel="noreferrer">
-                        <i className="fab fa-github"></i>
-                    </a>
-                </div>
                 </div>
             }
             <div className="show-more" onClick={() => setShow(!show)}>

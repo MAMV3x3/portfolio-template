@@ -1,6 +1,6 @@
 import React, {Suspense} from 'react'
-// import AnimatedCharacter from './animatedCharacters/AnimatedCharacter'
-import AnimatedCharacter from './animatedCharacters/AnimatedCharacterM'
+import AnimatedCharacter from './animatedCharacters/AnimatedCharacter'
+//import AnimatedCharacter from './animatedCharacters/AnimatedCharacterM'
 import Window3dScenes from './Window3dScenes'
 import {OrbitControls} from '@react-three/drei';
 import './Window3d.css'
