@@ -12,7 +12,7 @@ const Home = (props) => {
   return (
     <>
     <div className="wrapper">
-      <MouseParallax isAbsolutelyPositioned>
+      <MouseParallax isAbsolutelyPositioned enableOnTouchDevice>
         <Shapes />
       </MouseParallax>
     </div>
