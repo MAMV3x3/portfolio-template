@@ -13,6 +13,7 @@
     --toggle-color: #002984;
     --sidebar-color: #8f8f8fd8;
     --sidebar-color-hover: #8f8f8f;
+    --card-gradient: 90deg, rgba(82, 82, 82, 0.5) 0%, rgba(54, 54, 54, 0.5) 100%;
 
     /*FONTS*/
     --body-font: 'Syne', sans-serif !important;
@@ -48,6 +49,7 @@
     --sidebar-color: #bebebed0;
     --sidebar-color-hover: ##ffc400;
     --shadow: 0px 5px 20px 0px rgba(54, 54, 54, 0.1);
+    --card-gradient: 90deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) 100%;
 }
 
 /*RESPONSIVE*/
@@ -174,6 +176,7 @@ img{
     display: inline-block;
     background-color: var(--first-color);
     font-weight: var(--font-bold);
+    transition: 0.3s ease-in-out;
 }
 
 .theme__toggle{
@@ -220,16 +223,22 @@ img{
     --gradient-color-4: #b9beff;
 }
 
-@keyframes button-push{
+/* @keyframes button-push{
+    /* bounce to bottom 
+    0%{
+        transform: translateY(0);
+    }
     50%{
-        transform: scale(0.8);
+        transform: translateY(2px);
     }
     100%{
-        transform: scale(1);
+        transform: translateY(4);
     }
-}
+} */
 
 .btn:hover{
-    animation: button-push 0.3s linear 1;
+    animation: button-push 0.5s;
     background-color: #757de8;
+    transform: translateY(2px);
+    transition: 0.3s ease-in-out;
 }

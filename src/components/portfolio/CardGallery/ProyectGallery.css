@@ -198,7 +198,7 @@
     color: var(--title-color);
     text-transform: capitalize;
     /*background with opacity*/
-    background: linear-gradient(90deg, rgba(82, 82, 82, 0.5) 0%, rgba(54, 54, 54, 0.5) 100%);
+    background: linear-gradient(var(--card-gradient));
     /*put tag on the bottom*/
     align-items: flex-end;
 }

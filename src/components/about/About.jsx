@@ -21,7 +21,7 @@ const About = (props) => {
             <p className="about__description">
               {props.history}
             </p>
-            <a href="" className="btn">Download CV</a>
+            <a href='MAMV_CV.pdf' className="btn" download>Download CV</a>
           </div>
           <div className="about__skils grid">
           {

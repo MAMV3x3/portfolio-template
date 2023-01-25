@@ -76,7 +76,7 @@
             "GitHub":"https://github.com/Ineso1/space-apps-challenge-2022"
         },
         {
-            "priority":1,
+            "priority":2,
             "name": "Quality fruit classifier",
             "about": "Low-cost industrial fruit classifier is an affordable solution for fruit processing facilities looking to improve their sorting and grading process. By utilizing cutting-edge artificial vision technology, the machine is able to accurately identify and distinguish between different types and sizes of fruits, as well as detect any imperfections or defects. This ensures that only the highest quality fruits are packaged and sent to market. The machine is designed for easy operation and maintenance, ensuring minimal downtime. Additionally, it is made of low-cost materials and manufactured with cost-effective methods making it very accessible. It's a great option for small and medium-size fruit processing operations looking to improve efficiency and quality control. Not only improves the sorting and grading process but also includes a dynamic website for productivity analysis. The website allows users to access real-time data on the machine's performance, including sorting speed, accuracy and efficiency. This allows managers and operators to monitor the machine's productivity and identify areas for improvement. Additionally, it offers detailed reports, charts and graphs for easy data interpretation, making it easy to see the performance of the classifier over time",
             "date": "oct. 2022 - actualidad",
@@ -103,7 +103,7 @@
             "GitHub":"https://github.com/Ineso1/Analisis-Virus-SARS-CoV-2"
         },
         {
-            "priority":2,
+            "priority":1,
             "name": "Analisis-Formula-1-laps",
             "about": "This text describes a project that aims to analyze the maximum speeds in Formula 1 race track curves by adjusting them to polynomial equations using Matlab. The goal of this analysis is to develop a proposal for positioning stands in order to reduce the risk to spectators. The project makes use of various data points, such as the equation of the curves, the cant angle, the coefficient of friction, and velocities, which can be manipulated in Matlab to gain insights. Additionally, an animation of a kart at different velocities can be observed in Matlab to identify critical points. The ultimate goal is to obtain the optimal proposal for stand positioning based on the analysis conducted using Matlab.",
             "date": "Apr 2022",
@@ -112,7 +112,7 @@
             "GitHub":"https://github.com/Ineso1/Analisis-Formula-1-laps-matlab-"
         },
         {
-            "priority":"",
+            "priority":2,
             "name": "Interfaz-Telemetria-Thunder-Rams",
             "about": "This project is a telemetry system designed to monitor a prototype electric car in real-time. The system was developed to analyze and monitor the performance of the prototype vehicle during testing and development. It makes use of data received from the car's onboard computer via a serial port, which is then parsed and visualized in an intuitive and user-friendly manner. The system was first developed in electron, which allows the creation of animations of the car and real-time tracking of its position on a map. The second version of the system was built using C# and .NET, where the team can view more detailed information about the car on a dashboard. The system allows the team to view important data such as speed, angles of inclination, temperature, and geographic coordinates in real-time. This information can be used to analyze the car's performance, monitor the car status, and make adjustments to optimize the car's performance during the prototype phase. The system can be integrated into the car's onboard computer or connected to a separate monitoring device, making it a valuable tool for any team developing a prototype electric car.",
             "date": "May 2022",
