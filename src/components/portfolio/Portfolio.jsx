@@ -1,7 +1,6 @@
 import React from 'react';
 import ProyectGallery from './CardGallery/ProyectGallery';
 import ProjectModal from './ProjectModal';
-import { Modal } from 'react-responsive-modal';
 import "./Portfolio.css"
 
 
