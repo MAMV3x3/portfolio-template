@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import "./Sidebar.css"
-import Logo from "../../assets/logo.svg"
+import React, { useState } from "react";
+import "./Sidebar.css";
+import Logo from "../../assets/logo.svg";
 
 const Sidebar = () => {
   const [toggle, showMenu] = useState(false);
@@ -49,11 +49,14 @@ const Sidebar = () => {
         </div>
       </aside>
 
-      <div className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"} onClick={() => showMenu(!toggle)}>
+      <div
+        className={toggle ? "nav__toggle nav__toggle-open" : "nav__toggle"}
+        onClick={() => showMenu(!toggle)}
+      >
         <i className="icon-menu"></i>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;

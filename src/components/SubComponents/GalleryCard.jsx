@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function GalleryCard() {
-  return (
-    <div className='galleryCard'>GalleryCard</div>
-  )
+  return <div className="galleryCard">GalleryCard</div>;
 }
 
-export default GalleryCard
+export default GalleryCard;

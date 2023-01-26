@@ -1,19 +1,19 @@
-.proyect__card{
-    display: flex;
-    flex-grow: 1;
-    height: auto;
-    width: 100px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+.proyect__card {
+  display: flex;
+  flex-grow: 1;
+  height: auto;
+  width: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-.bg-proyect__card{
-    height: 90%;
-    width: 90%;
+.bg-proyect__card {
+  height: 90%;
+  width: 90%;
 }
 
-.front-proyect__card{
-    position: absolute;
-    color: aqua;
+.front-proyect__card {
+  position: absolute;
+  color: aqua;
 }

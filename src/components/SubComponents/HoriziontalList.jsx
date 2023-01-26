@@ -1,17 +1,20 @@
-import React from 'react'
-import Proyect from '../portfolio/Proyect'
-import './Proyect.css'
+import React from "react";
+import Proyect from "../portfolio/Proyect";
+import "./Proyect.css";
 
 function HoriziontalList(props) {
-    let proyectsCard = [];
-    props.proyects.map((val)=>{
-        proyectsCard.push(<Proyect name={val.name} about={val.about} date={val.date} image={val.image}/>)
-    })
-  return (
-    <div className='horizontal-list'>
-        {proyectsCard}
-    </div>
-  )
+  let proyectsCard = [];
+  props.proyects.map((val) => {
+    proyectsCard.push(
+      <Proyect
+        name={val.name}
+        about={val.about}
+        date={val.date}
+        image={val.image}
+      />
+    );
+  });
+  return <div className="horizontal-list">{proyectsCard}</div>;
 }
 
-export default HoriziontalList
+export default HoriziontalList;

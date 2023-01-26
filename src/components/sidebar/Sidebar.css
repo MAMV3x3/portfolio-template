@@ -1,76 +1,80 @@
-.aside{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 300px;
-    height: 100%;
-    background: var(--body-color);
-    border-right: 1px solid var(--sidebar-color);
-    padding: 2.5rem;
-    width: 110px;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 999;
-    transition: 0.3s;
+.aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  background: var(--body-color);
+  border-right: 1px solid var(--sidebar-color);
+  padding: 2.5rem;
+  width: 110px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 999;
+  transition: 0.3s;
 }
 
-.nav__list{
-    display: flex;
-    flex-direction: column;
-    row-gap: 1rem;
+.nav__logo{
+    filter: var(--filter);
 }
 
-.nav__link{
-    font-size: 1.5rem;
-    color: var(--title-color);
-    font-weight: var(--font-bold);
-    transition: 0.3s;
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
 }
 
-.nav__link:hover{
-    color: var(--sidebar-color-hover);
+.nav__link {
+  font-size: 1.5rem;
+  color: var(--title-color);
+  font-weight: var(--font-bold);
+  transition: 0.3s;
 }
 
-.copyright{
-    color: hsl(0, 0%, 68%);
-    font-size: var(--small-font-size);
-    transform: rotate(-180deg);
-    writing-mode: vertical-rl;
+.nav__link:hover {
+  color: var(--sidebar-color-hover);
 }
 
-.nav__toggle{
-    position: fixed;
-    top: 1.25rem;
-    left: 1.875rem;
-    cursor: pointer;
-    height: 40px;
-    width: 45px;
-    background-color: var(--body-color);
-    border: 1px solid var(--sidebar-color);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    z-index: 999;
-    transition: 0.3s;
+.copyright {
+  color: hsl(0, 0%, 68%);
+  font-size: var(--small-font-size);
+  transform: rotate(-180deg);
+  writing-mode: vertical-rl;
+}
+
+.nav__toggle {
+  position: fixed;
+  top: 1.25rem;
+  left: 1.875rem;
+  cursor: pointer;
+  height: 40px;
+  width: 45px;
+  background-color: var(--body-color);
+  border: 1px solid var(--sidebar-color);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  z-index: 999;
+  transition: 0.3s;
 }
 
 @media screen and (max-width: 1024px) {
-    .aside {
-        left: -110px;
-    }
+  .aside {
+    left: -110px;
+  }
 
-    .nav__toggle{
-        display: flex;
-    }
+  .nav__toggle {
+    display: flex;
+  }
 
-    .nav__toggle-open{
-        left: 140px;
-    }
+  .nav__toggle-open {
+    left: 140px;
+  }
 
-    .show-menu{
-        left: 0;
-    }
+  .show-menu {
+    left: 0;
+  }
 }

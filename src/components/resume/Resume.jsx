@@ -1,6 +1,6 @@
-import React from 'react';
-import "./Resume.css"
-import Card from './Card';
+import React from "react";
+import "./Resume.css";
+import Card from "./Card";
 
 const Resume = (props) => {
   return (
@@ -12,18 +12,36 @@ const Resume = (props) => {
       <div className="resume__container grid">
         <div className="timeline grid">
           {props.education.map((val, id) => {
-                return <Card key={id} icon={val.icon} title={val.title} year={val.year} institution={val.institution} desc={val.desc}/>
+            return (
+              <Card
+                key={id}
+                icon={val.icon}
+                title={val.title}
+                year={val.year}
+                institution={val.institution}
+                desc={val.desc}
+              />
+            );
           })}
         </div>
 
         <div className="timeline grid">
           {props.experience.map((val, index) => {
-                return <Card key={index} icon={val.icon} title={val.title} year={val.year} institution={val.institution} desc={val.desc}/>
+            return (
+              <Card
+                key={index}
+                icon={val.icon}
+                title={val.title}
+                year={val.year}
+                institution={val.institution}
+                desc={val.desc}
+              />
+            );
           })}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;
