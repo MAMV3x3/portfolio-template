@@ -5,13 +5,13 @@
       "socialMedia": {
         "linkedIn": "https://www.linkedin.com/in/ines-alejandro-garcia-mosqueda-8128a8237/",
         "gitHub": "https://github.com/Ineso1",
-        "instagram": "a",
+        "instagram": "https://instagram.com/inesgamos?igshid=YmMyMTA2M2Y=a",
         "discord": "https://discord.gg/xQJFp9MF",
-        "faceboock": "a",
+        "facebook": "https://www.facebook.com/inesgamos?mibextid=LQQJ4d",
         "curriculum": "a"
       },
       "about": {
-        "history": "I am Ines Alejandro Garcia Mosqueda, a Computer Science Engineer currently studying at Tecnologico de Monterrey. Good understanding of computer science principles and programming languages such as C++, Python and JavaScript. Experience with algorithms and data structures. Passionate about developing innovative solutions to complex problems. Strong analytical and problem-solving skills. Eager to learn new technologies and expand my skillset. Actively seeking opportunities to contribute my knowledge and skills.",
+        "history": "I am Ines Alejandro Garcia Mosqueda, a Computer Science Engineer currently studying at Tecnologico de Monterrey. I have good understanding of computer science principles and programming languages such as C++, Python and JavaScript.\nI have experience with algorithms and data structures.\nI'm passionate about developing innovative solutions to complex problems. Strong analytical and problem-solving skills. Eager to learn new technologies and expand my skillset. Actively seeking opportunities to contribute my knowledge and skills.",
         "statistics": [
           {
             "title": "Development",
@@ -188,7 +188,7 @@
         "technologies": [
           "C#",
           "JavaScript",
-          "Elecrtron",
+          "Electron",
           ".NET",
           "Arduino",
           "GoogleCloud"
@@ -199,7 +199,7 @@
         "priority": "",
         "name": "Dielectrophoresis",
         "about": "This repository contains a simulation code that models dielectrophoresis (DEP) for the detection of malaria. DEP is a technique that uses a non-uniform electric field to manipulate and separate particles in a liquid medium. The simulation code uses computational models to simulate the DEP process and predict the behavior of malaria-infected red blood cells in the electric field. The simulation results are then compared with experimental data to validate the accuracy of the model. The code is well-organized and well-commented, making it easy to understand and modify as needed. Additionally, the repository also includes a detailed explanation of the underlying physics and principles of DEP, as well as the specific implementation of the simulation for malaria detection.",
-        "date": "May 2022",
+        "date": "Apr 2022",
         "image": [
           "https://user-images.githubusercontent.com/84602829/214531851-0d9354d5-0701-470d-993a-e4bd5277f449.png",
           "https://user-images.githubusercontent.com/84602829/214531926-8f8a84f6-4dfc-4e02-a8f8-a84118943bc2.png",

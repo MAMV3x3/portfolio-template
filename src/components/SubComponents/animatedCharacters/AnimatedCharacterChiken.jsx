@@ -16,7 +16,7 @@ export default function Model(props) {
         <group
           name="Armature"
           rotation={[Math.PI / 2.2, 2.8, 0]}
-          scale={350}
+          scale={300}
           position={[0, 0, -3.5]}
         >
           <primitive object={nodes.mixamorigHips} />
