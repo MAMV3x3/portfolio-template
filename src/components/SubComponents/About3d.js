@@ -2,8 +2,8 @@ import React, { Suspense } from "react";
 import About3dScenes from "./About3dScenes";
 import { OrbitControls } from "@react-three/drei";
 import "./Window3d.css";
-//import AnimatedCharacter from './animatedCharacters/AnimatedCharacterWave'
-import AnimatedCharacter from "./animatedCharacters/AnimatedCharacterTalk";
+import AnimatedCharacter from './animatedCharacters/AnimatedCharacterWave'
+// import AnimatedCharacter from "./animatedCharacters/AnimatedCharacterTalk";
 
 function About3d() {
   return (
