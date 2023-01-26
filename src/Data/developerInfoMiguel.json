@@ -14,16 +14,36 @@
       "history": "I am Miguel Ángel Mireles Vázquez a dedicated and ambitious computer science student at the Universidad de Guanajuato with a passion for technology and its potential to make a positive impact on the world. With a strong foundation in programming and software development, I am well-equipped to tackle any challenge that comes my way. Whether it's developing new software solutions or troubleshooting complex systems, I am confident in my abilities to deliver high-quality results. I am also highly motivated and eager to learn, always seeking out new opportunities to expand my knowledge and skills. Whether it's through coursework, internships, or personal projects, I am committed to staying at the forefront of the rapidly-evolving field of computer science. With my knowledge and experience, I am poised to make a meaningful contribution to the world of technology and help shape the future.",
       "statistics": [
         {
-          "title": "Development",
+          "title": "Web Development",
           "porcent": 80
         },
         {
-          "title": "UI/UX design",
-          "porcent": 50
+          "title": "Software Development",
+          "porcent": 80
         },
         {
-          "title": "SoftSkills",
-          "porcent": 60
+          "title": "UI/UX Design",
+          "porcent": 70
+        },
+        {
+          "title": "Data Science",
+          "porcent": 75
+        },
+        {
+          "title": "Machine Learning",
+          "porcent": 85
+        },
+        {
+          "title": "Robotics",
+          "porcent": 90
+        },
+        {
+          "title": "Embedded Systems",
+          "porcent": 85
+        },
+        {
+          "title": "Soft Skills",
+          "porcent": 95
         }
       ]
     }
