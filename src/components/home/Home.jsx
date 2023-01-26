@@ -23,7 +23,7 @@ const Home = (props) => {
           <h2 className="home__name__sub">Hi 👋, I'm</h2>
           <h1 className="home__name">{props.devName}</h1>
           <span className="home__education">{props.devCarrer}</span>
-          <SocialsHeader />
+          <SocialsHeader socialMedia={props.devSocialMedia} />
           <a href="#contact" className="btn">
             Contact me
           </a>

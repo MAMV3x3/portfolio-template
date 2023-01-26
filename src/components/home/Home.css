@@ -47,6 +47,7 @@
 
 .home__socials-link:hover {
   color: var(--socials-color-hover);
+  cursor: pointer;
 }
 
 .scroll_down {

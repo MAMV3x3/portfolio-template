@@ -10,7 +10,7 @@ import Contact from "../contact/Contact";
 import { Dna } from "react-loader-spinner";
 
 function OnePage() {
-  let data = require("../../Data/developerInfoMiguel.json");
+  let data = require("../../Data/developerInfoInes.json");
   let developer = data.developer;
   let resume = data.resume;
   let portfolio = data.portfolio;
