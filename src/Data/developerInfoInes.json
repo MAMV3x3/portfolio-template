@@ -10,12 +10,78 @@
       "faceboock": "a",
       "curriculum": "a"
     },
+<<<<<<< Updated upstream
     "about": {
       "history": "I am Ines Alejandro Garcia Mosqueda, a Computer Science Engineer currently studying at Tecnologico de Monterrey. Good understanding of computer science principles and programming languages such as C++, Python and JavaScript. Experience with algorithms and data structures. Passionate about developing innovative solutions to complex problems. Strong analytical and problem-solving skills. Eager to learn new technologies and expand my skillset. Actively seeking opportunities to contribute my knowledge and skills.",
       "statistics": [
         {
           "title": "Development",
           "porcent": 80
+=======
+    "portfolio":[
+        {
+            "priority":1,
+            "name": "ISS tracker and collision avoidance web app",
+            "about": "Global Nominee of Nasa Space App Challenge 2022.\nThe ISS tracker and collision avoidance web app by Dagon, is an open-source web app, where the user can know the actual location of the International Space Station, check for real coalitions alerts with space trash and space debris, satellites and space bodies detected and located with the Satellite.js library, in a 3D space, which simulates the world, its atmosphere, the International Space Station and the illumination of the sun, all this at real time with real data.\nOur proposal includes development of the ISS tracking and mapping in a 3D space, as well as a collision prediction estimate. Our tracking system was developed as a web application written in JavaScript with Node and React and Three.js. We implemented a rendered for Three.js called React-three-fiber which allows us to load 3D models of the ISS itself, the nearby satellites, and all the space trash data into a space.\nThe application relies on the TLE data provided from Celestrak (considering NORAD and NASA's GOES data) and an API provided from Open Notify which provides us the ISS position in real time.",
+            "date": "oct. 2022 - oct. 2022",
+            "image": ["https://user-images.githubusercontent.com/84602829/212249521-765e6854-8e4c-41c8-b9a8-9e28f1c2955f.png","https://user-images.githubusercontent.com/84602829/212249594-fe40565e-a4d1-4d78-b73a-92d002c901d0.png","https://user-images.githubusercontent.com/84602829/212249631-43499c4a-32dd-4104-9891-be8bd4356b9a.png"],
+            "technologies": ["HTML","CSS","JavaScript","React","Three.js"],
+            "GitHub":"https://github.com/Ineso1/space-apps-challenge-2022"
+        },
+        {
+            "priority":1,
+            "name": "Quality fruit classifier",
+            "about": "Low-cost industrial fruit classifier is an affordable solution for fruit processing facilities looking to improve their sorting and grading process. By utilizing cutting-edge artificial vision technology, the machine is able to accurately identify and distinguish between different types and sizes of fruits, as well as detect any imperfections or defects. This ensures that only the highest quality fruits are packaged and sent to market. The machine is designed for easy operation and maintenance, ensuring minimal downtime. Additionally, it is made of low-cost materials and manufactured with cost-effective methods making it very accessible. It's a great option for small and medium-size fruit processing operations looking to improve efficiency and quality control. Not only improves the sorting and grading process but also includes a dynamic website for productivity analysis. The website allows users to access real-time data on the machine's performance, including sorting speed, accuracy and efficiency. This allows managers and operators to monitor the machine's productivity and identify areas for improvement. Additionally, it offers detailed reports, charts and graphs for easy data interpretation, making it easy to see the performance of the classifier over time",
+            "date": "oct. 2022 - actualidad",
+            "image": ["https://user-images.githubusercontent.com/84602829/212424210-b4968bbc-cc76-4159-a819-d23b0d20cdc0.jpg","https://user-images.githubusercontent.com/84602829/212421124-7006cebc-33b5-44ea-bc6b-7ee4ecdf8eaf.jpg","https://user-images.githubusercontent.com/84602829/212425441-3441109b-5e9d-47c5-954b-375f02a1d257.png","https://user-images.githubusercontent.com/84602829/212421525-21ed2f36-30d8-436e-8a00-b6cafe0a1f90.png"],
+            "technologies": ["Python","JavaScript","SQL","Node.js","React","Express","OpenCv","Eagle","Arduino"],
+            "GitHub":"https://github.com/Ineso1/FruitClasify_product"
+        },
+        {
+            "priority":1,
+            "name": "AI for Waste Recognition",
+            "about": "Our team has developed a cutting-edge solution to address one of the most pressing environmental issues of our time - improper waste sorting. The project was developed for the HackMTY 2022 Hackathon, with the goal of creating a better resource management.\nThis project aims to use artificial vision to detect and sort garbage. The project is divided into two main parts:\nPython files with trained artificial intelligence: These files contain the deep learning model that has been trained to recognize and classify different types of garbage.\nServer to interpret in React: This server is used to interpret and process the data collected by the AI model. It is likely that it will be used to control the sorting and disposal of the garbage.\nMatlab scripts are used to analyze the training data and evaluate the performance of the model.\nThe system is described as using artificial vision to detect the garbage and then using the trained AI model to classify and sort it. The results are then interpreted and processed by the server and possibly used to control the disposal of the garbage.\nThis project involves training a deep learning model for image recognition, specifically using the GoogleNet architecture, to classify different types of garbage (such as organic, plastics, paper, and others). The trained model is then integrated into a prototype system for automated control, which is designed to function as an 'intelligent' garbage bin. The system is able to use the image recognition model to distinguish between different types of garbage and sort them into the appropriate bin. The goal of this project is to improve the efficiency of waste sorting in households and communities.",
+            "date": "Sep 2022",
+            "image": ["https://user-images.githubusercontent.com/84602829/212252108-178e2720-a5ec-4758-bf11-bb8722b873ff.png","https://user-images.githubusercontent.com/84602829/212252467-aba83e2e-8dec-49e2-8c14-c4d2c34b76d8.png","https://user-images.githubusercontent.com/84602829/212252218-fa3d170f-23f0-47f3-80a0-59ca7902146c.png"],
+            "technologies": ["Matlab","Python","Flask","React","GoogleCloud"],
+            "GitHub":"https://github.com/Ineso1/ServerIAHackMty"
+        },
+        {
+            "priority":3,
+            "name": "Portfolio website template",
+            "about": "This project is a web portfolio template created using React.js. It includes a responsive design and user-friendly interface for showcasing personal projects, skills, and experiences. The template features a clean and modern layout, with sections for an about me, portfolio, and contact information. The template also includes a functional contact form and an option to display social media links. The project is fully customizable and can be easily adapted to fit the needs of any individual or business. The project is open source and available on GitHub for anyone to use and contribute to. It is built with React, HTML, CSS, and JavaScript. This template is perfect for developers, designers, and professionals looking to create a polished and professional web portfolio.",
+            "date": "Jan 2023 - Present",
+            "image": ["https://user-images.githubusercontent.com/84602829/214545170-1f98f7ea-cbc7-4798-8822-508256c932ad.png","https://user-images.githubusercontent.com/84602829/214545338-11cc8355-e014-4c82-b4ff-d27c4ad53b6c.png"],
+            "technologies": ["HTML","CSS","JavaScript","React","Three.js"],
+            "GitHub":"https://github.com/Ineso1/portfolio-template"
+        },
+        {
+            "priority":2,
+            "name": "Analisis-Virus-SARS-CoV-2",
+            "about": "This project describes a phylogenetic analysis of variants of the SARS-CoV-2 virus. The repository contains research and the process for understanding and creating a phylogenetic tree written in the R programming language. The DNA of various SARS-CoV-2 variants is analyzed to identify similarities between variants and detect common ancestors among the different virus variants.",
+            "date": "May 2022",
+            "image": ["https://user-images.githubusercontent.com/84602829/214522521-31203272-7de1-4878-aa27-64bcec371774.png", "https://user-images.githubusercontent.com/84602829/212415249-32fc9ab2-6921-4904-87fb-186835f99067.png"],
+            "technologies": ["R"],
+            "GitHub":"https://github.com/Ineso1/Analisis-Virus-SARS-CoV-2"
+        },
+        {
+            "priority":2,
+            "name": "Analisis-Formula-1-laps",
+            "about": "Is a project that aims to analyze the maximum speeds in Formula 1 race track curves by adjusting them to polynomial equations using Matlab. The goal of this analysis is to develop a proposal for positioning stands in order to reduce the risk to spectators. The project makes use of various data points, such as the equation of the curves, the cant angle, the coefficient of friction, and velocities, which can be manipulated in Matlab to gain insights. Additionally, an animation of a kart at different velocities can be observed in Matlab to identify critical points. The ultimate goal is to obtain the optimal proposal for stand positioning based on the analysis conducted using Matlab.",
+            "date": "Apr 2022",
+            "image": ["https://user-images.githubusercontent.com/84602829/214523189-e629463e-0f43-40fc-85d1-1822bb8025ca.png","https://user-images.githubusercontent.com/84602829/214519866-2d471d21-5d6b-4589-a34a-76a292e17221.png"],
+            "technologies": ["Matlab"],
+            "GitHub":"https://github.com/Ineso1/Analisis-Formula-1-laps-matlab-"
+        },
+        {
+            "priority":3,
+            "name": "Interfaz-Telemetria-Thunder-Rams",
+            "about": "This project is a telemetry system designed to monitor a prototype electric car in real-time. The system was developed to analyze and monitor the performance of the prototype vehicle during testing and development. It makes use of data received from the car's onboard computer via a serial port, which is then parsed and visualized in an intuitive and user-friendly manner. The system was first developed in electron, which allows the creation of animations of the car and real-time tracking of its position on a map. The second version of the system was built using C# and .NET, where the team can view more detailed information about the car on a dashboard. The system allows the team to view important data such as speed, angles of inclination, temperature, and geographic coordinates in real-time. This information can be used to analyze the car's performance, monitor the car status, and make adjustments to optimize the car's performance during the prototype phase. The system can be integrated into the car's onboard computer or connected to a separate monitoring device, making it a valuable tool for any team developing a prototype electric car.",
+            "date": "Aug 2022",
+            "image": ["https://user-images.githubusercontent.com/84602829/214519354-ff6dacb4-5444-4a80-aa88-927df2fcaecf.jpg","https://user-images.githubusercontent.com/84602829/214516602-d6e7a621-120f-4c1e-addc-a1252cc7b9ae.jpg","https://user-images.githubusercontent.com/84602829/214516614-5d99aad1-ad40-4f00-9b56-940320549174.jpg"],
+            "technologies": ["C#","JavaScript","Electron",".NET","Arduino","GoogleCloud"],
+            "GitHub":"https://github.com/Ineso1/Interfaz-Telemetria-Thunder-Rams"
+>>>>>>> Stashed changes
         },
         {
           "title": "UI/UX design",
