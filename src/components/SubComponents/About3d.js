@@ -8,7 +8,7 @@ import AnimatedCharacter from './animatedCharacters/AnimatedCharacterWave'
 function About3d() {
   return (
     <div className="Window3d">
-      <About3dScenes className="Window3dScene" cameraPos={[0, 0, -7]}>
+      <About3dScenes className="Window3dScene" cameraPos={[0, 0, 7]}>
         <Suspense fallback={null}>
           <AnimatedCharacter />
         </Suspense>
