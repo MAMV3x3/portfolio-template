@@ -58,12 +58,12 @@
   justify-content: flex-end;
   font-size: var(--h1-font-size);
   color: var(--text-color-hover);
-  transition: 0.3s;
 }
 
 .icon__container a {
   text-decoration: none;
   color: var(--text-color-hover);
+  transition: 0.3s;
 }
 
 .card-title__date {
@@ -78,7 +78,7 @@
   margin: 0 5px;
 }
 
-.icon__container:hover {
+.icon__container a:hover{
   cursor: pointer;
   color: var(--text-color);
 }
