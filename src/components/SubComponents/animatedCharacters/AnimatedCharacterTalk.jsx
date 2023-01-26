@@ -17,7 +17,7 @@ export default function Model(props) {
       <group name="Scene">
         <group
           name="Armature"
-          rotation={[Math.PI / 2.2, 2.8, 0]}
+          rotation={[Math.PI / 2.2, 0, 0]}
           scale={350}
           position={[0, 0, -3.5]}
         >

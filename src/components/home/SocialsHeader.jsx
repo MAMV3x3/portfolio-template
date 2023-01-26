@@ -7,7 +7,7 @@ const SocialsHeader = (props) => {
         <i class="fa-brands fa-instagram"></i>
       </a>
 
-      <a href={`${props.socialMedia.linkedIn}`} className="home__socials-link" target="_blank">
+      <a href={props.socialMedia.linkedIn} className="home__socials-link" target="_blank">
         <i class="fa-brands fa-linkedin"></i>
       </a>
 

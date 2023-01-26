@@ -17,7 +17,7 @@ const About = (props) => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">{props.history}</p>
-            <a href="MAMV_CV.pdf" className="btn" download>
+            <a href="InesAlejandroGarciaMosqueda_resume.pdf" className="btn" download>
               Download CV
             </a>
           </div>
