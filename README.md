@@ -5,3 +5,5 @@ This project is a web portfolio template created using React.js. It includes a r
 ![image](https://user-images.githubusercontent.com/84602829/214545170-1f98f7ea-cbc7-4798-8822-508256c932ad.png)
 
 ![image](https://user-images.githubusercontent.com/84602829/214545338-11cc8355-e014-4c82-b4ff-d27c4ad53b6c.png)
+
+Personal Portfolio
