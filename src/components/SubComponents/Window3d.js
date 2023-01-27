@@ -8,7 +8,7 @@ import "./Window3d.css";
 function Window3d(props) {
   return (
     <div className="Window3d">
-      <Window3dScenes className="Window3dScene" cameraPos={[0, 0, -8]}>
+      <Window3dScenes className="Window3dScene" cameraPos={[0, 0, 8]}>
         <Suspense fallback={null}>
           <AnimatedCharacter />
         </Suspense>

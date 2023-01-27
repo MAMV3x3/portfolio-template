@@ -9,7 +9,7 @@ function NotFoundPage() {
           <Window3d/>
         </div>
         <div className='NotFound-content'>
-          <h1 className='NotFound-text'>Error 400</h1>
+          <h1 className='NotFound-text'>Error 404</h1>
           <h1 className='NotFound-text'>Not Found</h1>
         </div>
     </div>

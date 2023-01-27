@@ -1,7 +1,7 @@
 {
   "developer": {
     "name": "Miguel Ángel Mireles Vázquez",
-    "career": "B. Sc. in Computer Science",
+    "career": "B. S. in Digital Systems and Robotics",
     "socialMedia": {
       "linkedIn": "https://www.linkedin.com/in/mamv3x3/",
       "gitHub": "https://github.com/MAMV3x3",
@@ -11,11 +11,11 @@
       "curriculum": "assets/CV_Miguel_Angel_Mireles_Vazquez.pdf"
     },
     "about": {
-      "history": "I am Miguel Ángel Mireles Vázquez a dedicated and ambitious computer science student at the Universidad de Guanajuato with a passion for technology and its potential to make a positive impact on the world. With a strong foundation in programming and software development, I am well-equipped to tackle any challenge that comes my way. Whether it's developing new software solutions or troubleshooting complex systems, I am confident in my abilities to deliver high-quality results. I am also highly motivated and eager to learn, always seeking out new opportunities to expand my knowledge and skills. Whether it's through coursework, internships, or personal projects, I am committed to staying at the forefront of the rapidly-evolving field of computer science. With my knowledge and experience, I am poised to make a meaningful contribution to the world of technology and help shape the future.",
+      "history": "I am Miguel Ángel Mireles Vázquez a dedicated and ambitious student from México at the Universidad de Guanajuato with a passion for technology and its potential to make a positive impact on the world. With a strong foundation in programming and software development, I am well-equipped to tackle any challenge that comes my way. Whether it's developing new software solutions or troubleshooting complex systems, I am confident in my abilities to deliver high-quality results. I am also highly motivated and eager to learn, always seeking out new opportunities to expand my knowledge and skills. Whether it's through coursework, internships, or personal projects, I am committed to staying at the forefront of the rapidly-evolving field of computer science. With my knowledge and experience, I am poised to make a meaningful contribution to the world of technology and help shape the future.",
       "statistics": [
         {
           "title": "Web Development",
-          "porcent": 80
+          "porcent": 75
         },
         {
           "title": "Software Development",
@@ -23,7 +23,7 @@
         },
         {
           "title": "UI/UX Design",
-          "porcent": 70
+          "porcent": 90
         },
         {
           "title": "Data Science",
@@ -31,7 +31,7 @@
         },
         {
           "title": "Machine Learning",
-          "porcent": 85
+          "porcent": 60
         },
         {
           "title": "Robotics",
@@ -54,9 +54,9 @@
         "id": 1,
         "icon": "icon-graduation",
         "year": "2021 - 2025",
-        "title": "B. Sc. in Computer Science",
+        "title": "B. S. in Digital Systems and Robotics",
         "institution": "Universidad de Guanajuato",
-        "desc": "GPA: 95.1/100"
+        "desc": "GPA: 94.1/100"
       },
       {
         "id": 2,
