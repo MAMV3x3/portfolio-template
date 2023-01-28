@@ -34,9 +34,9 @@
           "id": 1,
           "icon": "icon-graduation",
           "year": "2021 - 2025",
-          "title": "B.S. in Computer Science and Technology",
+          "title": "B.S. in Robotics and Digital Systems",
           "institution": "Tecnologico de Monterrey",
-          "desc": "Computer Science Engineer"
+          "desc": ""
         },
         {
           "id": 2,
@@ -51,16 +51,16 @@
         {
           "icon": "icon-graduation",
           "year": "2019 - 2021",
-          "title": "Master of Science in Computer Science",
-          "institutio": "University of California, Los Angeles",
-          "desc": "asd"
+          "title": "Curso practico de maquetacion",
+          "institutio": "Platzi",
+          "desc": "Maquetacion para desarrollo web con Html, CSS y JavaScript"
         },
         {
           "icon": "icon-graduation",
           "year": "2019 - 2021",
-          "title": "Master of Science in Computer Science",
-          "institutio": "University of California, Los Angeles",
-          "desc": "aaaaaa"
+          "title": "Curso practico React",
+          "institutio": "Platzi",
+          "desc": "Curso de desarrollo web utilizando React"
         }
       ]
     },
