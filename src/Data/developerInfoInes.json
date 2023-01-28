@@ -61,6 +61,13 @@
           "title": "Curso practico React",
           "institutio": "Platzi",
           "desc": "Curso de desarrollo web utilizando React"
+        },
+        {
+          "icon": "icon-graduation",
+          "year": "2019 - 2021",
+          "title": "Curso diseno UX/Ui en adobe XD",
+          "institutio": "Platzi",
+          "desc": "Curso de diseno con herramienta de diseno "
         }
       ]
     },
