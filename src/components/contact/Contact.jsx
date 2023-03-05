@@ -79,7 +79,7 @@ const Contact = () => {
               cols="30"
               rows="10"
               className="contact__form-input"
-              placeholder="Wirte your message..."
+              placeholder="Write your message..."
               required
             ></textarea>
           </div>
